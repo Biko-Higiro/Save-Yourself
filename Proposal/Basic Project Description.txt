@@ -1,0 +1,27 @@
+Time management app and habit builder app.
+
+You Login
+
+You input the habits you want to build and the habits you want to kill.
+
+You input daily time spend.
+
+It analyses your time spend today and in the past
+
+tells you what you need to keep doing, what you need to stop and what you need to improve from day to day.
+
+e.g You spent 3 hours on your phone after eating at 6 try eating without your phone an going for a walk after.
+
+
+
+Front end 
+
+React. 
+
+Back end
+Java
+
+Database
+MySQL
+
+
