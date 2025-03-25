@@ -2,11 +2,14 @@ import About from "./About";
 import Login from "./Login";
 import NavBar from "./NavBar";
 import Pricing from "./Pricing";
+import Home from "./Home";
+import "bootstrap/dist/css/bootstrap.min.css";
+
 function App() {
   let Component;
   switch (window.location.pathname) {
     case "/":
-      Component = App;
+      Component = Home;
       break;
     case "/Pricing":
       Component = Pricing;
@@ -18,7 +21,7 @@ function App() {
       Component = Login;
       break;
     default:
-      Component = App;
+      Component = Home;
   }
   return (
     <div>
