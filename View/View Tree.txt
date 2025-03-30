@@ -1,0 +1,23 @@
+Not Logged in
+
+Home -> Pricing ,About, Login
+
+Pricing -> Home, About, Login
+
+About -> Home, Pricing, Login
+
+Login-> Home,,Pricing About
+
+Logged in
+
+Dashboard -> Habits, Progress, Challenges, Profile
+
+Habits -> Dashboard, Progress, Challenges, Profile
+
+Progress -> Dashboard, Habits,  Challenges, Profile
+
+Challenges -> Dashboard, Habits, Progress, Profile
+
+Profile -> Dashboard
+
+

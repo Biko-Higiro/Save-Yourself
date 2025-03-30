@@ -1,0 +1,18 @@
+ personality: we will use the Big 5 personality test. It's scientifically recognized. 
+id:67e34a577d916c3dd1933054
+Neuroticism 0-120: anxiety(0-20), anger(0-20), depression(0-20), self-consciousness(0-20), Immoderation(0-20), vulnerabilities(0-20)
+Extraversion 0-120: friendliness(0-20), gregariousness(0-20), assertiveness(0-20), activity level(0-20), excitement-seeking(0-20), cheerfulness(0-20)
+Openness 0-120: imagination(0-20), artistic interest(0-20), emotionality(0-20), adventurousness(0-20), intellect(0-20), liberalism(0-20)
+Agreeableness 0-120: trust(0-20), morality(0-20), altruism(0-20), cooperation(0-20), modesty(0-20), sympathy(0-20) 
+Conscientiousness 0-120: self-efficacy(0-20), orderliness(0-20), dutifulness(0-20), achievement-striving(0-20), self-discipline(0-20), cautiousness(0-20)
+
+4 ranges for each. which will affect the feedback and plans
+
+
+Normalization checks
+
+1nf: No order for row information, no mixing datatypes in a single column, every table must have a primary key, each cell has a single value.
+2nf: All non-key attributes must depend on the entirety of a primary key. (check if an attribute of a composite key, needs its own column)
+3nf: no transitive dependencies.
+4nf: all multivalued dependencies must be only on the key. (if a attribute has a set of possible values, make sure that that attribute is the only primary key).
+5nf: a table which is in 4nf cannot be describable as the logical result of joining some other tables.
