@@ -1,12 +1,13 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import "./index.css";
 
 function NavBar() {
   return (
     <Navbar
       expand="lg"
-      className="bg-danger border border-dark w-100"
+      className=" synav border border-dark w-100"
       sticky="top"
     >
       <Container>
@@ -15,7 +16,10 @@ function NavBar() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav
             className="me-auto"
-            style={{ display: "flex", justifyContent: "flex-end" }}
+            style={{
+              display: "flex",
+              justifyContent: "flex-end",
+            }}
           >
             <Nav.Link href="/Pricing">Pricing</Nav.Link>
             <Nav.Link href="/About">About</Nav.Link>

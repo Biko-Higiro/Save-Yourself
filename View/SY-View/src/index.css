@@ -12,7 +12,9 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+.synav{
+  background-color: #624CAB;
+}
 a {
   font-weight: 500;
   color: #646cff;
@@ -28,6 +30,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-color: #C4B7E1!important;
 }
 
 h1 {
