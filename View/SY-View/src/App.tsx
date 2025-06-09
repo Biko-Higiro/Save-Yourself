@@ -3,6 +3,7 @@ import Login from "./Login";
 import NavBar from "./NavBar";
 import Pricing from "./Pricing";
 import Home from "./Home";
+import Footer from "./Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
     <div>
       <NavBar />
       <Component />
+      <Footer />
     </div>
   );
 }

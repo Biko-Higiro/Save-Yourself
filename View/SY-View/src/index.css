@@ -37,24 +37,54 @@ body {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr;
-  margin-top: 5rem;
-  margin: 5rem;
-  border-style: solid;
-  border-color: red;
+  margin: 3rem;
+
 }
 .item{
   outline: #1a1a1a; 
   height: 350px;
   outline-style: dotted;
-  margin: 2rem
+  margin: 2rem;
+  border-radius: 5%;
 }
 .home-image{
   width: 100%;
   height: 100%;
   border-radius: 5%;
 }
+.footer{
+  background-color: #624CAB;
+  
+}
 
-
+.footer-container{
+  width: 100%;
+ 
+  border-color: #624CAB;
+  border-style: double;
+}
+.footer-nav{
+  display: flex;  
+  justify-content: center;
+  margin-top: 40px;
+  width: 100%;
+}
+.footer-nav-items{
+  margin-right: 25px;
+  
+}
+.company-logo{
+  justify-items: center;
+}
+.footer-copyright{
+  font-size: 1.1em;
+}
+.home-page{
+  justify-items: center;
+}
+.home-features{
+  margin: 1em;
+}
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
