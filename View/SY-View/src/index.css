@@ -85,6 +85,34 @@ body {
 .home-features{
   margin: 1em;
 }
+
+.Pricing-Container{
+ border-color: red;
+ border-style: solid;
+ height: 100vh;  
+}
+.Pricing-Header{
+  justify-items: center;
+  border-color: brown;
+  border-style: dotted;
+}
+.Prices-Container{
+  border-color: pink;
+  border-style: groove;
+  display: flex;
+  height: 90%;
+  justify-content: space-between;
+  
+}
+.Prices-Items{
+  height: 600px;
+  border: turquoise;
+  border-radius: 10%;
+  border-style: solid;
+  margin-top: 4em;
+  width: 300px;
+}
+
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
