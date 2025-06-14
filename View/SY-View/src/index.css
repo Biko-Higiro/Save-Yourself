@@ -111,8 +111,16 @@ body {
   border-style: solid;
   margin-top: 4em;
   width: 300px;
+  justify-items: center;
 }
-
+.Pricing-Items-Header{
+  margin-top: 1em;
+}
+.Pricing-Items-Text{
+ margin-top: 4em;
+ margin-bottom:4em;
+ font-size: large;
+}
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
