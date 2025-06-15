@@ -2,7 +2,7 @@ function Pricing() {
   return (
     <div className="container Pricing-Container">
       <div className="Pricing-Header">
-        <h1>Pricing</h1>;
+        <h1 className="Pricing-Title">Pricing</h1>;
       </div>
       <div className="container Prices-Container">
         <div className="Prices-Items">
